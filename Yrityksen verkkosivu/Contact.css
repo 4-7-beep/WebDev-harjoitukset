@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    max-width: 1250px;
+    margin: 0 auto;
+    justify-content: space-between; 
+    align-items: center;            
+    background-color: rgb(81, 19, 104);
+}
+
+.logo {
+    background-color: rgb(85, 13, 79);
+    color: white;
+    padding: 25px 60px;
+}
+
+nav {
+    display: flex;
+    gap: 70px;                      
+    padding-right: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;          
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 100vh;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+.yhteystiedot {
+    display: flex;
+    justify-content: space-between;  
+    align-items: flex-start;         
+    gap: 40px;
+    position: relative; 
+    top: -30px;
+    left: -30px;
+}
+
+.yhteystiedot img {
+    width: 55%;          
+    height: 350px;
+    position: relative;
+    left: 75px; 
+    top: -30px;         
+}
+
+main {
+    padding: 0 80px;  
+    display: flow-root;
+    min-height: calc(100vh - 130px);
+    background: linear-gradient(to bottom, #1d002b, #3a024f 50%, rgb(49, 1, 74));
+}
+
+html {
+    background-color: #2b0139;    
+}
+
+h1 {  
+    font-size: 34px;
+    position: relative;
+    top: -28px;
+    left: -30px;
+}
